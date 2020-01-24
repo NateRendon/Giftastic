@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Giftastic</title>
-		<script
-		src="https://code.jquery.com/jquery-3.2.1.min.js"
-		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-		crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<div class="container">
-			<h1>Gif Time!</h1>
-			<div id = "buttons-view"></div>
-			<form id = "gif-form">
-				<input type="text" id = "topic-input">
-				<input id="add-gif" type="submit" value="Add Gifs!">
-			</form>
-		</div>
-		<div id="gif-view" style="height: 100;width: 100"></div>
-		<!-- <div id = "rate-view"></div> -->
-	</body>
-	<script type="text/javascript" src="javascript/app.js">
-	</script>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>GifTastic</title>
+
+        <!--Link to Bootstrap and CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="buttons"></div>
+
+        <form id="topic-form">
+            <label for="topic-input">Add more gifs!!!</label>
+            <input type="text" id="topic-input"><br>
+      
+            <!-- Button triggers new topic to be added -->
+            <input id="add-topic" type="submit" value="Submit">
+          </form>
+
+        <div id="gifs-appear-here"></div>
+
+        <!-- Add link to the javascript -->
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    </body>
+
 </html>
