@@ -1,4 +1,4 @@
-const topics = ["corgi", "deus vult", "monty python and the holy grail", 
+const topics = ["corgi", "monty python and the holy grail", 
 "cardfight vanguard" ];
 
 // Function for displaying topic buttons
